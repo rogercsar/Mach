@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style/historico.css">
+        <link rel="stylesheet" href="../style/menu.css">
+        <title>Mach</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="titulo">
+                <a href="../../home.html"><h4>Mach</h4></a>
+                    <nav class="menu">
+                        <ul>
+                            <li>
+                                <a href="../../home.html">
+                                    <div class="btnMenu">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-xl" style="color: #FFD43B;"></i>
+                                    </div>
+                                </a>
+                                <ul>
+                                    <li><a href="../../historico.html">Histórico</a></li>
+                                    <li><a href="#" onclick="window.print();">Imprimir</a></li>
+                                    <li><a href="../../index.html">Sair</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                
+            </div>
+
+            <div class="display" id="display">
+                <ul id="list" class="listChat">
+
+                </ul>
+            </div>
+
+            <div class="clear">
+                <a href="#" onclick="deleteHist()"><i class="fa-solid fa-trash fa-2xl" style="color: #FFD43B;"></i></a>
+            </div>
+
+            
+
+        </div>
+        <script src="../js/historico.js"></script>   
+    </body>
+
+    <footer>
+        <a href="#"><p>2024© Developed by RC Desenvolvimento</p></a>
+    </footer>
+</html>
