@@ -8,7 +8,7 @@ function btnLogin(){
     if(users.User === txtUser.value && users.Pass === txtPass.value){
 
         let usuario = txtUser.value;
-        window.location.href ='../html/home.html'
+        window.location.href ='./home.html'
         localStorage.setItem('userAtivo', JSON.stringify(usuario))
     }
 

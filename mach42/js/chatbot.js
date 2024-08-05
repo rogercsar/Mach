@@ -167,7 +167,8 @@ function search(termo) {
             if (data && data.RelatedTopics) {
                 let resultsArray = data.RelatedTopics;
                 resultsOnPage(resultsArray, termo);
-            } else {
+            } 
+            else {
                 console.log('Nenhum resultado encontrado.');
                 let listResp = document.createElement('li');
                 listResp.setAttribute('style', 'color: #000000;');
@@ -237,7 +238,8 @@ function resultsOnPage(myArray, message, numCaracteres = 5000) {
 
         histMsg.push({ user: 'Mach', message: resposta, date: dia, time: hora });
         salvaMsg();
-    } else {
+    } 
+    else {
         console.log("Nenhum item relevante encontrado.");
 
         let listResp = document.createElement('li');

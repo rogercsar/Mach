@@ -20,5 +20,5 @@ function btnCriar(){
 
     localStorage.setItem('usuarios', JSON.stringify(newUser));
 
-    window.location.href = '../html/index.html'
+    window.location.href = './index.html'
 }
